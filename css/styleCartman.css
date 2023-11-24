@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  overflow: hidden;
+
+  display: flex;
+  
+
+  background-image: url('../imagens/pixil-frame-0\ \(3\)\ \(1\).png')  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.personagem {
+  width: 200px;
+  height: 200px;
+  background-image: url(../imagens/cartmanpolice.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 530px;
+}
+
+.inimigo {
+  background-image: url(../imagens/ladrao.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 220px;
+}
+
+.inimigoDois {
+  background-image: url(../imagens/ladrao.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 220px;
+}
+
+
+.tiro {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-image: url(../imagens/tiro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ladrao{
+  background-image: url(../imagens/kenny.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 220px;
+}
+
+
+.ladraozinho{
+  background-image: url(../imagens/kenny.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 220px;
+}
+
+.kenny{
+  background-image: url(../imagens/kenny.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 220px;
+}
+
+
+.cima{
+display: flex;
+flex-direction: row;
+height: 300px;
+width: 300px;
+top: 10px;
+right: 10px;
+
+}
+.foto{
+position: absolute;
+top: 37px;
+left: 10px;
+}
+
+p{
+position: absolute;
+top: 10px;
+left: 60px;
+font-family: Arial, sans-serif;
+font-size: 35px;
+}
+

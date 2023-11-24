@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    background-image: url(../imagens/fundo2.gif);
+    background-repeat: repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    
+
+}
+
+.home{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+p{
+    top: -50px;
+    font-family: 'Handjet', cursive;
+    color: darkred;
+    text-align: center;
+    font-size: 150px;
+    position: absolute;
+
+}
+
+#texto{
+    top: 300px;
+    font-family: 'Handjet', cursive;
+    color:black;
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+}
+.img{
+    background-repeat: repeat;
+    background-size: cover;
+
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    
+}

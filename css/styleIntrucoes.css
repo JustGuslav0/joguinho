@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 100vh; /* Limita a altura ao tamanho da tela */
+    overflow-y: auto; /* Adiciona barras de rolagem vertical se necessário */
+
+    
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+h1{
+    height: 20%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: darkred;
+    text-align: center;
+    font-size: 60px;
+    flex-direction: row;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.meio{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 140px;
+
+    
+}
+
+.ladrao{
+    background-image: url("../imagens/ladrao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200%;
+    width: 200px;
+    height: 200px;
+}
+
+.inocente{
+    background-image: url("../imagens/kenny.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 200px;
+    height: 200px;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+   
+    gap: 220px;
+}
+
+.nomeInocente{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+ 
+    font-size: 30px;
+}
+
+.nomeLadrao{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 80px;
+
+}
+
+.atirar{
+    background-image: url("../imagens/espacoButton.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 425px;
+    height: 170px;
+    margin-left: -50px;
+}
+
+.mover{
+    background-image: url("../imagens/leftright.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 180px;
+    height: 130px;
+}
+
+.nomes2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.nomeAtirar{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+    font-size: 30px;
+    width: 50%;
+    justify-content: center;
+    margin-left: 420px;
+}
+
+.nomeMover{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-left: 190px;
+    font-size: 30px;
+    width: 50%;
+    justify-content: center;
+    margin-right: 240px;
+}
+
+.botao{
+    width: 350px;
+    height: 60px;
+    border-radius: 8px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.apertar{
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+.botao:hover{
+    background-color: darkred;
+}
+
+.redirecionar{
+    display: flex;
+    margin-top: 50px;
+
+    align-items: center;
+    justify-content: center;
+}
